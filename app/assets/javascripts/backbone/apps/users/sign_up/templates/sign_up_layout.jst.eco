@@ -1,0 +1,49 @@
+<h1> Sign up </h1>
+<form class="form-login form-login-ajax" method="post" action = "">
+    <div class="alert"></div>
+
+    <div id="div_id_first_name" class="form-group">
+        <label class="control-label  requiredField">First name
+            <span class="asteriskField">* </span>
+        </label>
+    </div>
+    <div class="controls">
+        <input class="textinput textInput form-control" id="first_name" maxlength="254" name="first_name" type="text" bind-value="model:first_name">
+    </div>
+
+    <div id="div_id_Last_name" class="form-group">
+        <label class="control-label  requiredField">Last name
+            <span class="asteriskField">* </span>
+        </label>
+    </div>
+    <div class="controls">
+        <input class="textinput textInput form-control" id="last_name" maxlength="254" name="last_name" type="text" bind-value="model:last_name">
+    </div>
+
+    <div id="div_id_email" class="form-group">
+        <label class="control-label  requiredField">Email
+            <span class="asteriskField">* </span>
+        </label>
+    </div>
+    <div class="controls">
+        <input class="textinput textInput form-control" id="email" maxlength="254" name="username" type="text" bind-value="model:email">
+    </div>
+    <div id="div_id_password" class="form-group">
+        <label class="control-label  requiredField">Password
+            <span class="asteriskField">* </span>
+        </label>
+    </div>
+    <div class="controls">
+        <input type="password" class="textinput textInput form-control" id="password" bind-value="model:password">
+    </div>
+
+    <div id="div_id_repeat_password" class="form-group">
+        <label class="control-label  requiredField">Repeat Password
+            <span class="asteriskField">* </span>
+        </label>
+    </div>
+    <div class="controls">
+        <input type="password" class="textinput textInput form-control" id="repeat_password" bind-value="model:repeat_password">
+    </div>
+    <p><input type="submit" value="Отправить"></p>
+</form>

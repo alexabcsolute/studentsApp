@@ -1,0 +1,26 @@
+<p>  </p>
+<h1> Sign in </h1>
+<form class="form-login form-login-ajax" method="post" action = "">
+    <div class="alert"></div>
+
+    <div id="div_id_email" class="form-group">
+        <label class="control-label  requiredField">Email
+            <span class="asteriskField">* </span>
+        </label>
+    </div>
+    <div class="controls">
+        <input class="textinput textInput form-control" id="email" maxlength="254" name="username" type="text" bind-value="model:email">
+    </div>
+    <div id="div_id_password" class="form-group">
+        <label class="control-label  requiredField">Password
+            <span class="asteriskField">* </span>
+        </label>
+    </div>
+    <div class="controls">
+        <input type="password" class="textinput textInput form-control" id="password" bind-value="model:password">
+    </div>
+
+
+    <p><input type="submit" value="Отправить"></p>
+</form>
+
